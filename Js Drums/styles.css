@@ -1,0 +1,61 @@
+
+
+body {
+  background-image: url("images/rucksack-magazine-386319-unsplash.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100vw;
+  height: 100vh;
+
+}
+body,html {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+
+}
+
+main-title-container {
+  width: 50%;
+  color: #ED553B;
+
+}
+.main-title-container {
+	width: 70em;
+	text-align: center;
+	margin: 19% 0 0 29%;
+}
+.keyboard-keys {
+  margin: 0 0 0 31%;
+}
+.key {
+  border: .2em solid black;
+  border-radius: .3em;
+  margin: 1em;
+  font-size: .5em;
+  padding: 1em 3.5em;
+  transition: all .05s ease;
+  text-align: center;
+  color: white;
+  text-shadow: 0 0 .2em black;
+  background: rgba(0,0,0,0.6);
+  display: inline-grid;
+}
+
+.play {
+  transform: scale(.9);
+  border-color: #0894A1;
+  box-shadow: 0 0 1em #0894A1;
+}
+
+kbd {
+  display: block;
+  font-size: 4em;
+}
+.sound {
+  font-size: 1em;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  color: #F2B134;
+}
